@@ -73,13 +73,13 @@ gcc lex.yy.c parser.tab.c -o bcs24
 
 ## 🚀 How to Run
 
-Pass the target `.bcs` program file as a command-line argument:
+Pass the target `.bcs24` program file as a command-line argument:
 
 ```bash
 ./bcs24 sample.bcs24
 ```
 
-### Expected Output for Valid Input (`sample.bcs`):
+### Expected Output for Valid Input (`sample.bcs24`):
 
 ```text
 Parsing Successful
@@ -109,7 +109,7 @@ Parsing Successful
 
 ---
 
-## 🧪 Sample Test Code (`sample.bcs`)
+## 🧪 Sample Test Code (`sample.bcs24`)
 
 ```text
 BcsMain
