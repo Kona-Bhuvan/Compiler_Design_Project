@@ -1,0 +1,18 @@
+BcsMain
+{
+    int n; int fb_number;
+    int a; int b; int idx;
+    n = 10;
+    idx = 1;
+    fb_number = 1;
+    a = 1;
+    b = 2;
+    while(idx < n){
+        fb_number = a + b;
+        b = a;
+        a = fb_number;
+        n = n - 1;
+    }
+    int answer;
+    answer = fb_number;
+}
