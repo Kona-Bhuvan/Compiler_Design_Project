@@ -27,6 +27,7 @@ The parser verifies whether an input `.bcs24` source code file complies with the
 ├── success_example.bcs24       # Sample valid program (prints "Parsing Successful")
 ├── failure_example.bcs24       # Sample invalid program (prints "Syntax Error")
 └── README.md                   # Build and usage documentation
+```
 
 ---
 
@@ -43,7 +44,6 @@ To install them on Debian/Ubuntu-based Linux systems:
 ```bash
 sudo apt update
 sudo apt install build-essential flex bison
-
 ```
 
 ---
@@ -93,7 +93,7 @@ Parsing Successful
 
 * **Entry Point:** Starts with the keyword `BcsMain` followed by `{ ... }`.
 * **Declarations First:** Declarations (`declist`) must appear before statements (`stmtlist`).
-* **Statement List:** It is of the form `statmentlist ; statement | statement`
+* **Statement List:** It is of the form `stmtlist ; stmt | stmt`
 * **Variable Types:** `int`, `bool`
 
 ### 2. Supported Statements & Constructs
@@ -121,5 +121,4 @@ BcsMain
     {sum=sum+i; i=i+1};
     sum=sum*10
 }
-
 ```
