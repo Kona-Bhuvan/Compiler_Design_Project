@@ -6,7 +6,7 @@ BcsMain
     idx = 1;
     fbnumber = 1;
     a = 1;
-    b = 2;
+    b = 1;
     while(idx < n){
         fbnumber = a + b;
         b = a;

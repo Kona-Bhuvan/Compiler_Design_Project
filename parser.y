@@ -101,7 +101,7 @@ relop:
     ;
 
 aexpr:
-    aexpr PLUS term { $$ = $1 + $3; }
+    aexpr PLUS aexpr { $$ = $1 + $3; }
     | term
     ;
 

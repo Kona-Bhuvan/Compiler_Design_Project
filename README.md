@@ -21,12 +21,12 @@ The parser verifies whether an input `.bcs24` source code file complies with the
 ## 📁 Repository Structure
 
 ```text
-├── lexer.l      # Flex lexical analyzer specification
-├── parser.y     # Bison grammar rules and semantic actions
-├── sample.bcs24   # Sample valid Bcs24 program
-└── README.md    # Build and usage documentation
-
-```
+├── Course_Project_Details.pdf  # Project specifications and evaluation details
+├── lexer.l                     # Flex lexical analyzer specification
+├── parser.y                    # Bison grammar rules and semantic actions
+├── success_example.bcs24       # Sample valid program (prints "Parsing Successful")
+├── failure_example.bcs24       # Sample invalid program (prints "Syntax Error")
+└── README.md                   # Build and usage documentation
 
 ---
 
