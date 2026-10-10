@@ -1,0 +1,15 @@
+BcsMain
+{
+    int a;
+    int b;
+    int c;
+    int sum;
+    int mult;
+    int calc;
+    a = 10;
+    b = 20;
+    c = 30;
+    sum = a + b + c;
+    mult = a * b * c;
+    calc = a * b + b * c + c * a
+}
