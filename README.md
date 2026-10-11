@@ -15,13 +15,13 @@ This project implements a custom programming language compiler for **Bcs24** usi
 
 ```text
 ├── Course_Project__Details.pdf
+├── sample.bcs24                # General sample Bcs24 program
 ├── README.md                   # Build and usage documentation
 ├── stage1
 │   ├── failure_example.bcs24   # Sample invalid Bcs24 program (Syntax Error)
 │   ├── lexer.l                 # Flex lexical analyzer specification
 │   ├── Makefile                # Automated build script for Stage 1
 │   ├── parser.y                # Bison grammar rules and evaluation actions
-│   ├── sample.bcs24            # General sample Bcs24 program
 │   └── success_example.bcs24   # Sample valid Bcs24 program (Parsing Successful)
 └── stage2
     ├── example.bcs24           # Sample program for TAC generation
